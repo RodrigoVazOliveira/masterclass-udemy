@@ -14,5 +14,11 @@ public class Applicaton {
         MegaByteConverter.printMegaBytesAndKiloBytes(-1024);
         MegaByteConverter.printMegaBytesAndKiloBytes(5000);
 
+        LeapYearCalculator.isLeapYear(-1600);
+        LeapYearCalculator.isLeapYear(1600);
+        LeapYearCalculator.isLeapYear(2017);
+        LeapYearCalculator.isLeapYear(2000);
+        LeapYearCalculator.isLeapYear(-1600);
+
     }
 }
