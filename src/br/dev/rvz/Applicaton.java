@@ -9,5 +9,10 @@ public class Applicaton {
         speedConverter.printConversion(25.42);
         speedConverter.printConversion(75.114);
         speedConverter.printConversion(0.0);
+
+        MegaByteConverter.printMegaBytesAndKiloBytes(2500);
+        MegaByteConverter.printMegaBytesAndKiloBytes(-1024);
+        MegaByteConverter.printMegaBytesAndKiloBytes(5000);
+
     }
 }
