@@ -45,5 +45,29 @@ public class Applicaton {
         System.out.println(PlayingCat.isCatPlaying(true, 10));
         System.out.println(PlayingCat.isCatPlaying(false, 36));
         System.out.println(PlayingCat.isCatPlaying(false, 35));
+
+        char letter = 'a';
+
+        switch (letter) {
+            case 'A':
+                System.out.println("Letra localizada");
+                break;
+            case 'B':
+                System.out.println("Letra localizada");
+                break;
+            case 'C':
+                System.out.println("letra localizada");
+                break;
+            case 'D':
+                System.out.println("letra localizada");
+                break;
+            case 'E':
+                System.out.println("Letra localizada");
+                break;
+            default:
+                System.out.println("Not found letter");
+                break;
+        }
+
     }
 }
