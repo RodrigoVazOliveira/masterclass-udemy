@@ -28,5 +28,14 @@ public class Applicaton {
         System.out.println(AreaCalculator.area(-1));
         System.out.println(AreaCalculator.area(5.0, 4.0));
         System.out.println(AreaCalculator.area(-1.0, 4.0));
+
+        System.out.println("conversão de minutos para dia e ano");
+        MinutesYearToDaysCalculator.printYearsAndDays(525600);
+        MinutesYearToDaysCalculator.printYearsAndDays(1051200);
+        MinutesYearToDaysCalculator.printYearsAndDays(561600);
+        MinutesYearToDaysCalculator.printYearsAndDays(-561600);
+
+
+
     }
 }
