@@ -35,7 +35,15 @@ public class Applicaton {
         MinutesYearToDaysCalculator.printYearsAndDays(561600);
         MinutesYearToDaysCalculator.printYearsAndDays(-561600);
 
+        System.out.println("print Equals");
+        EqualityPrinter.printEqual(1,1,1);
+        EqualityPrinter.printEqual(1,1,2);
+        EqualityPrinter.printEqual(-1,-1,-1);
+        EqualityPrinter.printEqual(1,2,3);
 
-
+        System.out.println("Playing Cat");
+        System.out.println(PlayingCat.isCatPlaying(true, 10));
+        System.out.println(PlayingCat.isCatPlaying(false, 36));
+        System.out.println(PlayingCat.isCatPlaying(false, 35));
     }
 }
