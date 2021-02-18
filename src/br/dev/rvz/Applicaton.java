@@ -80,5 +80,11 @@ public class Applicaton {
         for(int i = 0; i < 11; i++) {
             Word.printNumberInWord(i);
         }
+
+        System.out.println("Verificar se o ano é bissexo");
+        System.out.println(NumberOfDaysInMonth.isLeapYear(-1600));
+        System.out.println(NumberOfDaysInMonth.isLeapYear(1600));
+        System.out.println(NumberOfDaysInMonth.isLeapYear(2017));
+        System.out.println(NumberOfDaysInMonth.isLeapYear(2000));
     }
 }
