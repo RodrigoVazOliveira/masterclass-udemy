@@ -69,5 +69,10 @@ public class Applicaton {
                 break;
         }
 
+        System.out.println("Dias das semanas");
+
+        for (int i = 0; i < 7; i++) {
+            DaysWeek.printDayOfTheWeek(i);
+        }
     }
 }
