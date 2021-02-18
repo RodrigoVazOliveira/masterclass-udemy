@@ -20,5 +20,13 @@ public class Applicaton {
         LeapYearCalculator.isLeapYear(2000);
         LeapYearCalculator.isLeapYear(-1600);
 
+        System.out.println(DecimalComparator.areEqualByThreedecimalPlaces(-3.1756, -3.175));
+        System.out.println(DecimalComparator.areEqualByThreedecimalPlaces(3.175, 3.176));
+
+        System.out.println("calcular area");
+        System.out.println(AreaCalculator.area(5.0));
+        System.out.println(AreaCalculator.area(-1));
+        System.out.println(AreaCalculator.area(5.0, 4.0));
+        System.out.println(AreaCalculator.area(-1.0, 4.0));
     }
 }
