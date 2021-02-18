@@ -57,6 +57,7 @@ public class Applicaton {
                 break;
             case 'C':
                 System.out.println("letra localizada");
+
                 break;
             case 'D':
                 System.out.println("letra localizada");
@@ -73,6 +74,11 @@ public class Applicaton {
 
         for (int i = 0; i < 7; i++) {
             DaysWeek.printDayOfTheWeek(i);
+        }
+
+        System.out.println("número por extenso");
+        for(int i = 0; i < 11; i++) {
+            Word.printNumberInWord(i);
         }
     }
 }
